@@ -47,7 +47,7 @@ public class DataStructures7 {// an initial attempt at an anagram detector algor
 				}
 			}
 			return true;
-		}
+		}// this algorithm currently runs in the worst case scenario ~ 3n + 3m + 1 + n*(4)*m(6) ~ 24*n*m + 3(n+m) + 1 ~ O(n^2) if n~m
 	}
 
 }
